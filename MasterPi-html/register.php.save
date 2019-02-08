@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="icon" type="image/png" href="images/bradford-logo.png" />
+    <title>STUDENT APPLICATION
+    </title>
+    <meta charset="UTF-8"
+    <link rel="stylesheet" href="styles/student-application.css" type="text/css">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Sign Up Form
+      </title>
+      <link rel="stylesheet" href="log-in.css">
+    </head>
+    <body>
+      <div class="wrapper row1">
+        <header id="header" class="clear">
+          <a 
+            <img border="0" alt="Logo" src="logo.png" >
+          </a>
+        </header>
+      </div>
+    <form action="register-action.php" method="post">
+      <h1>REGISTRATION FORM
+      </h1>
+      <fieldset>
+        <legend>
+          <span class="number">1
+          </span>Your basic info
+        </legend>
+        <input type="text" id="text" name="user_name">
+		<label for="user_name">Username:
+        </label>
+        <input type="text" id="text" name="password">
+        <label for="password">Password:
+        </label>                 
+          </fieldset>
+        <button type="submit">APPLY
+        </button>
+        </form>
+      </body>
+  </head>
+  <div class="wrapper row3">
+    <footer id="footer" class="clear">
+      <p>University of Bradford`s Final Year Project
+      </p>
+      <p class="fl_left">Copyright &copy; 2018 - All Rights are not reserved - Computer Science 
+      </p>
+      <p class="fl_right">Version by Denis Kostadinov
+      </p>
+    </footer>
+  </div>
+  </body>
+</html>
